@@ -1,0 +1,8 @@
+server:
+  http:
+    addr: 0.0.0.0:8090
+    timeout: 30s
+  grpc:
+    addr: 0.0.0.0:9090
+    timeout: 30s
+db: host=quotes_db port=54490 dbname=quotes user=admin password=password sslmode=disable
