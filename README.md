@@ -29,6 +29,8 @@ make init
 make api
 # Generate all files
 make all
+# Run project
+make run
 ```
 ## Automated Initialization (wire)
 ```
